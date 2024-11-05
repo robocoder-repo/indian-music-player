@@ -72,12 +72,41 @@ function playNextSong() {
     currentSongIndex = (currentSongIndex + 1) % songs.length;
     player.loadVideoById(songs[currentSongIndex].id);
     updateSongInfo();
+    updatePlaylistHighlight();
 }
 
 function playPreviousSong() {
     currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
     player.loadVideoById(songs[currentSongIndex].id);
     updateSongInfo();
+    updatePlaylistHighlight();
+}
+
+function populatePlaylist() {
+    const songList = document.getElementById('song-list');
+    songs.forEach((song, index) => {
+        const li = document.createElement('li');
+        li.textContent = `${song.title} - ${song.artist}`;
+        li.addEventListener('click', () => {
+            currentSongIndex = index;
+            player.loadVideoById(songs[currentSongIndex].id);
+            updateSongInfo();
+            updatePlaylistHighlight();
+            playSong();
+        });
+        songList.appendChild(li);
+    });
+}
+
+function updatePlaylistHighlight() {
+    const songItems = document.querySelectorAll('#song-list li');
+    songItems.forEach((item, index) => {
+        if (index === currentSongIndex) {
+            item.style.backgroundColor = '#ffd1d1';
+        } else {
+            item.style.backgroundColor = 'transparent';
+        }
+    });
 }
 
 playPauseBtn.addEventListener('click', () => {
@@ -96,3 +125,6 @@ var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// Call populatePlaylist after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', populatePlaylist);
