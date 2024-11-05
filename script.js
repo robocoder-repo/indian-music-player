@@ -19,7 +19,27 @@ const songs = [
     { title: "Saiyyan", artist: "Kailash Kher", id: "TuULiuZroZo" },
     { title: "Allah Ke Bande", artist: "Kailash Kher", id: "9Ered22Xy4E" },
     { title: "Dilbara", artist: "Kailash Kher", id: "gfyA5rMIr1E" },
-    { title: "Ya Rabba", artist: "Kailash Kher", id: "HGf5JbRHT0s" }
+    { title: "Ya Rabba", artist: "Kailash Kher", id: "HGf5JbRHT0s" },
+    { title: "Kal Ho Naa Ho", artist: "Sonu Nigam", id: "g0eO74UmRBs" },
+    { title: "Abhi Mujh Mein Kahin", artist: "Sonu Nigam", id: "oWKgpB2zpgw" },
+    { title: "Main Agar Kahoon", artist: "Sonu Nigam", id: "DAYszemgPxc" },
+    { title: "Suraj Hua Maddham", artist: "Sonu Nigam, Alka Yagnik", id: "baFRYyUlXIE" },
+    { title: "Mere Haath Mein", artist: "Sonu Nigam, Sunidhi Chauhan", id: "qoq8B8ThgEM" },
+    { title: "Kabira", artist: "Arijit Singh, Harshdeep Kaur", id: "jHNNMj5bNQw" },
+    { title: "Raabta", artist: "Arijit Singh", id: "zAU_rsoS5ok" },
+    { title: "Phir Le Aya Dil", artist: "Arijit Singh", id: "FxAG_11PzCk" },
+    { title: "Nashe Si Chadh Gayi", artist: "Arijit Singh", id: "Wd2B8OAotU8" },
+    { title: "Zaalima", artist: "Arijit Singh, Harshdeep Kaur", id: "lpdRqn6xwiM" },
+    { title: "Laal Ishq", artist: "Arijit Singh", id: "2mWaqsC3U7k" },
+    { title: "Agar Tum Saath Ho", artist: "Arijit Singh, Alka Yagnik", id: "sK7riqg2mr4" },
+    { title: "Hawayein", artist: "Arijit Singh", id: "cYOB941gyXI" },
+    { title: "Naina", artist: "Arijit Singh", id: "JXKy1zxZfDg" },
+    { title: "Mast Magan", artist: "Arijit Singh", id: "xitd9mEZIHk" },
+    { title: "Enna Sona", artist: "Arijit Singh", id: "ofOV7ygq66w" },
+    { title: "Humdard", artist: "Arijit Singh", id: "jXKy1zxZfDg" },
+    { title: "Samjhawan", artist: "Arijit Singh, Shreya Ghoshal", id: "H8U3u1Bx2Gs" },
+    { title: "Judaai", artist: "Arijit Singh", id: "zO6NOyaYZXM" },
+    { title: "Ishq Mubarak", artist: "Arijit Singh", id: "AOMx4cuZg2Q" }
 ];
 
 let currentSongIndex = 0;
