@@ -1,8 +1,8 @@
 
 const songs = [
-    { title: "Song 1", artist: "Artist 1", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-    { title: "Song 2", artist: "Artist 2", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-    { title: "Song 3", artist: "Artist 3", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" }
+    { title: "Tum Hi Ho", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Aashiqui%202/Tum%20Hi%20Ho%20-%20Aashiqui%202%20128%20Kbps.mp3" },
+    { title: "Channa Mereya", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Ae%20Dil%20Hai%20Mushkil/Channa%20Mereya%20-%20Ae%20Dil%20Hai%20Mushkil%20128%20Kbps.mp3" },
+    { title: "Agar Tum Saath Ho", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Tamasha/Agar%20Tum%20Saath%20Ho%20-%20Tamasha%20128%20Kbps.mp3" }
 ];
 
 let currentSongIndex = 0;
