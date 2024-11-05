@@ -4,13 +4,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 }
 
 .music-player {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -25,21 +25,11 @@ h1 {
 }
 
 .song-info {
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
 }
 
-#album-art {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-    object-fit: cover;
-}
-
 .song-details {
-    text-align: left;
+    text-align: center;
 }
 
 #song-title {
@@ -53,23 +43,10 @@ h1 {
     color: #666;
 }
 
-.progress-bar {
-    background-color: #ddd;
-    border-radius: 5px;
-    height: 5px;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.progress {
-    background-color: #ff9a9e;
-    height: 100%;
-    width: 0;
-}
-
 .controls {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 button {
@@ -85,4 +62,25 @@ button {
 
 button:hover {
     background-color: #ff8b8b;
+}
+
+.playlist {
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#song-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#song-list li:hover {
+    background-color: #ffd1d1;
 }
