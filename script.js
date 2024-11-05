@@ -1,8 +1,8 @@
 
 const songs = [
-    { title: "Tum Hi Ho", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Aashiqui%202/Tum%20Hi%20Ho%20-%20Aashiqui%202%20128%20Kbps.mp3" },
-    { title: "Channa Mereya", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Ae%20Dil%20Hai%20Mushkil/Channa%20Mereya%20-%20Ae%20Dil%20Hai%20Mushkil%20128%20Kbps.mp3" },
-    { title: "Agar Tum Saath Ho", artist: "Arijit Singh", src: "https://pagalsong.in/uploads/systemuploads/mp3/Tamasha/Agar%20Tum%20Saath%20Ho%20-%20Tamasha%20128%20Kbps.mp3" }
+    { title: "Smooth Sailing", artist: "Audionautix", src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Audionautix/Acoustic/Audionautix_-_Smooth_Sailing.mp3" },
+    { title: "Acoustic Breeze", artist: "bensound", src: "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3" },
+    { title: "Ukulele", artist: "bensound", src: "https://www.bensound.com/bensound-music/bensound-ukulele.mp3" }
 ];
 
 let currentSongIndex = 0;
