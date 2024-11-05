@@ -1,8 +1,8 @@
 
 const songs = [
-    { title: "Smooth Sailing", artist: "Audionautix", src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Audionautix/Acoustic/Audionautix_-_Smooth_Sailing.mp3" },
-    { title: "Acoustic Breeze", artist: "bensound", src: "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3" },
-    { title: "Ukulele", artist: "bensound", src: "https://www.bensound.com/bensound-music/bensound-ukulele.mp3" }
+    { title: "Tum Hi Ho", artist: "Arijit Singh", src: "https://music.youtube.com/watch?v=Umqb9KENgmk" },
+    { title: "Channa Mereya", artist: "Arijit Singh", src: "https://music.youtube.com/watch?v=284Ov7ysmfA" },
+    { title: "Ae Dil Hai Mushkil", artist: "Arijit Singh", src: "https://music.youtube.com/watch?v=6FURuLYrR_Q" }
 ];
 
 let currentSongIndex = 0;
